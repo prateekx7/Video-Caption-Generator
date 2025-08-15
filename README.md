@@ -11,6 +11,29 @@ An AI-powered web application that automatically generates captions for videos u
 - **📱 Responsive Design**: Works seamlessly on desktop and mobile devices
 - **⚡ Real-time Processing**: Live progress tracking for transcription and caption generation
 
+## 🖼️ Screenshots & Demo
+
+### Home Page
+![Home Page](public/images/home%20page.png)
+
+### Video Upload Process
+![Video Upload](public/images/uploading%20the%20video.png)
+
+### Transcription in Progress
+![Transcription Process](public/images/transcribing%20in%20process.png)
+
+### Caption Editing Interface
+![Caption Editing](public/images/editable%20caption%20words%20and%20font%20color.png)
+
+### Caption Embedding Process
+![Caption Embedding](public/images/embedding%20captions%20in%20the%20video.png)
+
+### Final Result with Captions
+![Final Result](public/images/final%20video%20with%20captions%20on%20the%20video.png)
+
+### AWS S3 Storage
+![S3 Storage](public/images/Files%20Stored%20in%20S3.png)
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js 15, React 19, Tailwind CSS
@@ -19,13 +42,6 @@ An AI-powered web application that automatically generates captions for videos u
 - **Video Processing**: Client-side video processing for caption generation
 - **Styling**: Tailwind CSS with custom components
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- AWS Account with S3 and Transcribe access
-- AWS CLI configured (optional)
 
 ### Installation
 
@@ -41,7 +57,7 @@ An AI-powered web application that automatically generates captions for videos u
    ```
 
 3. **Environment Variables**
-   Create a `.env.local` file in the root directory:
+   Create a `.env` file in the root directory:
    ```env
    AWS_ACCESS_KEY=your_aws_access_key
    AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
@@ -56,7 +72,7 @@ An AI-powered web application that automatically generates captions for videos u
 5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🔧 Configuration
+## Configuration
 
 ### AWS Setup
 
@@ -81,7 +97,7 @@ An AI-powered web application that automatically generates captions for videos u
    ]
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -103,7 +119,7 @@ src/
     └── awsTranscriptionHelpers.js # AWS transcription utilities
 ```
 
-## 🎯 How It Works
+## How It Works
 
 1. **Video Upload**: User uploads video through the web interface
 2. **S3 Storage**: Video is stored in AWS S3 bucket
@@ -119,26 +135,15 @@ src/
 - **Environment Variables**: Secure credential management
 - **Input Validation**: File type and size validation
 
-## 📊 Performance Features
+## Performance Features
 
 - **Client-side Processing**: Reduces server load
 - **Real-time Updates**: Live progress tracking
 - **Optimized Storage**: S3 lifecycle policies for cost management
 - **Responsive Design**: Optimized for all device sizes
 
-## 🚀 Deployment
 
-### Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Add environment variables in Vercel dashboard
-3. Deploy automatically on push to main branch
-
-### Other Platforms
-- **Netlify**: Similar to Vercel setup
-- **AWS Amplify**: Native AWS integration
-- **Self-hosted**: Deploy to your own server
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -146,9 +151,6 @@ src/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -156,10 +158,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Next.js team for the amazing framework
 - Tailwind CSS for the utility-first CSS framework
 
-## 📞 Support
 
 If you have any questions or need help, please open an issue on GitHub or contact me at [your-email@example.com]
 
 ---
 
-**Made with ❤️ by Prateek Sharma**
+
