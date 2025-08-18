@@ -159,7 +159,7 @@ src/
 - Tailwind CSS for the utility-first CSS framework
 
 
-If you have any questions or need help, please open an issue on GitHub or contact me at [your-email@example.com]
+If you have any questions, please open an issue on GitHub or contact me at [sharmaprateek0076@gmail.com]
 
 ---
 
